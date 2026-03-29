@@ -1,0 +1,11 @@
+telegram
+openai
+httpx
+dotenv
+pre-commit
+black
+isort
+flake8
+python-telegram-bot
+
+

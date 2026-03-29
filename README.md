@@ -39,10 +39,15 @@ A unique role-playing mode. Choose a conversation partner and ask them questions
 ## How to use
 
 Enter the command /start.
+
 Use the Reply keyboard at the bottom of the screen to select a mode:
+
 Select  ‘Take part in the quiz’ to choose a category (Maths/Programming/Biology). Test your knowledge in your chosen category
+
 Tap  ‘Learn a random interesting fact’ for a one-off dose of knowledge.
+
 Select  ‘Chat with a famous person’ to open the menu of notable figures.
+
 At any time, you can tap  ‘Ask GPT a question’ to  simply chat with the AI.
 
 ## Implementation features

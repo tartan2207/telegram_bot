@@ -1,0 +1,31 @@
+repos:
+  # Стандартные проверки (пробелы, синтаксис, окончания строк)
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace      # Удаляет лишние пробелы в конце строк
+      - id: end-of-file-fixer        # Добавляет пустую строку в конец файла
+      - id: check-yaml               # Проверяет синтаксис YAML-файлов
+      - id: check-added-large-files  # Запрещает коммитить слишком тяжелые файлы ( >500kb)
+#      - id: double-quote-string-fixer # (Опционально) Меняет одинарные кавычки на двойные
+
+  # Форматирование кода (Black)
+  - repo: https://github.com/psf/black
+    rev: 26.3.0
+    hooks:
+      - id: black
+        language_version: python3
+
+  # Сортировка импортов (isort)
+  - repo: https://github.com/pycqa/isort
+    rev: 8.0.1
+    hooks:
+      - id: isort
+        args: ["--profile", "black"]
+
+  # Проверка стиля и потенциальных ошибок (Flake8)
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.3.0
+    hooks:
+      - id: flake8
+        additional_dependencies: [flake8-bugbear]

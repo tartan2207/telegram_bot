@@ -44,7 +44,7 @@ Use the Reply keyboard at the bottom of the screen to select a mode:
 
 Select  ‘Take part in the quiz’ to choose a category (Maths/Programming/Biology). Test your knowledge in your chosen category
 
-Tap  ‘Learn a random interesting fact’ for a one-off dose of knowledge.
+Select  ‘Learn a random interesting fact’ for a one-off dose of knowledge.
 
 Select  ‘Chat with a famous person’ to open the menu of notable figures.
 

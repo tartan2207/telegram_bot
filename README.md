@@ -53,5 +53,7 @@ At any time, you can tap  ‘Ask GPT a question’ to  simply chat with the AI.
 ## Implementation features
 
 **Regular expressions**: The ^...$ pattern is used to handle callbacks, which prevents errors when buttons are clicked.
+
 **Data security:** Clearing context.user_data when switching modes or resetting statistics.
+
 **Prompt engineering:** Customised system instructions to limit the length of questions and maintain the ‘personality’ of the interlocutors.
